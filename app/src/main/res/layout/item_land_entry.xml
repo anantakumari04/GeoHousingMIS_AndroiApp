@@ -1,0 +1,13 @@
+<!-- res/layout/item_land_entry.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textSummary"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textColor="#333"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+</LinearLayout>

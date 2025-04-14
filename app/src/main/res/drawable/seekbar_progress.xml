@@ -1,0 +1,12 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background image -->
+    <item>
+        <bitmap
+            android:src="@drawable/map2"
+            android:tileMode="disabled"
+            android:gravity="center"/>
+    </item>
+
+    <!-- Semi-transparent overlay -->
+    <item android:drawable="@android:color/white" android:alpha="1"/> <!-- Adjust alpha as needed -->
+</layer-list>

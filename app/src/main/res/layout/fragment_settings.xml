@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_4"
+
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#80E0B58A"
+        android:padding="20dp"
+        android:elevation="8dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp">
+
+        <!-- Custom style for headers -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌱 Select Soil Type"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/fo"
+            android:textColor="#F8420F0F"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinnerSoil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⛰️ Elevation (meters)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/fo"
+            android:textColor="#F8420F0F"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp" />
+
+        <SeekBar
+            android:id="@+id/seekBarElevation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressBackgroundTint="#0F0F0F"
+            />
+
+        <TextView
+            android:id="@+id/textElevationValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 m"
+            android:textColor="#0F0F0F"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠️ Risk Zone"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/fo"
+            android:textColor="#F8420F0F"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp" />
+
+        <Switch
+            android:id="@+id/switchRisk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High Risk Area"
+            android:textColor="#D9070E"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🏗️ Infrastructure Available"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/fo"
+            android:textColor="#F8420F0F"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp" />
+
+        <CheckBox
+            android:id="@+id/checkElectricity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="75dp"
+            android:buttonTint="@color/black"
+            android:text="Electricity"
+            android:textColor="@color/black" />
+
+        <CheckBox
+            android:id="@+id/checkWater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="65dp"
+            android:text="Water Supply"
+            android:textColor="@color/black"
+            android:buttonTint="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkRoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="48dp"
+            android:text="Road Connectivity"
+            android:textColor="@color/black"
+            android:buttonTint="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👥 Population Density (per km²)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/fo"
+            android:textColor="#F8420F0F"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp" />
+
+        <SeekBar
+            android:id="@+id/seekBarDensity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressBackgroundTint="#0F0F0F" />
+
+        <TextView
+            android:id="@+id/textDensityValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 /km²"
+            android:textColor="#0F0F0F"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/buttonSaveSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💾 Save Settings"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4B1919"
+            android:layout_marginTop="24dp"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="12dp"
+            android:elevation="2dp" />
+
+    </LinearLayout>
+</ScrollView>
