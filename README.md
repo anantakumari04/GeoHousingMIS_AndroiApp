@@ -6,10 +6,12 @@ GeoHousing MIS is a GIS-enabled Android application for rural housing developmen
 Soil quality, elevation, risk zones
 Environmental constraints
 Customizable suitability scoring model
+
 🏗️ Infrastructure Availability Analysis
 
 Road access, utilities, telecom
 Proximity-based analysis
+
 👥 Population & Demographics
 
 Census data visualization
@@ -18,10 +20,12 @@ Socio-economic indicators
  Prioritization & Decision-Making
 Scoring algorithm based on user-defined weights
 Suitability score animation & charts
+
 📊 Data Management & Reporting
 
 Store & retrieve land data with Firestore
 Dynamic dashboards & reports
+
 📶 Offline Functionality
 
 Caching maps and local storage
