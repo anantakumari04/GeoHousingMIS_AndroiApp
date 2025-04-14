@@ -1,4 +1,5 @@
 GeoHousing MIS is a GIS-enabled Android application for rural housing development, enabling planners and administrators to analyze land suitability, infrastructure availability, population density, and more to make data-driven housing decisions. The app uses Google Maps, Firebase, and various Android components to offer real-time mapping, analysis, and reporting tools.
+
 🌟 Key Features
 
 🌍 Land Suitability Analysis
