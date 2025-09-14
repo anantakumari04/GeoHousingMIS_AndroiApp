@@ -30,7 +30,7 @@
 - **SharedPreferences** used to save preferences persistently.
 
 **Preview:**
-![SettingsFragment Preview](https://via.placeholder.com/300x600?text=SettingsFragment+Preview)
+![SettingsFragment Preview](assestss/IMG-20250914-WA0016.jpg)
 
 ---
 
