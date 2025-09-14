@@ -1,4 +1,4 @@
-<img width="1071" height="364" alt="image" src="https://github.com/user-attachments/assets/65f353af-ec72-4c30-b26c-a0f35755f19d" /># 🌾 GeoHousing MIS
+
 
 ![GeoHousing Banner](assestss/IMG-20250914-WA0015.jpg)
 
