@@ -1,6 +1,6 @@
-# 🌾 GeoHousing MIS
+<img width="1071" height="364" alt="image" src="https://github.com/user-attachments/assets/65f353af-ec72-4c30-b26c-a0f35755f19d" /># 🌾 GeoHousing MIS
 
-![GeoHousing Banner](https://via.placeholder.com/800x200?text=GeoHousing+MIS+Banner)
+![GeoHousing Banner](assestss/IMG-20250914-WA0015.jpg)
 
 **GeoHousing MIS** is a mobile-based **decision support system** built for **rural housing development** and **land suitability analysis**. The application integrates **GIS concepts** with mobile technologies to help planners, administrators, and citizens assess land plots based on environmental and infrastructural parameters.
 
@@ -17,7 +17,7 @@
 - Clicking on a land entry navigates to **AnalysisFragment** for detailed review.
 
 **Preview:**
-![HomeFragment Preview](https://via.placeholder.com/300x600?text=HomeFragment+Preview)
+![HomeFragment Preview](assestss/IMG-20250914-WA0013.jpg)
 
 ---
 
@@ -43,7 +43,7 @@
 - Provides a score breakdown and actionable insights.
 
 **Preview:**
-![AnalysisFragment Preview](https://via.placeholder.com/300x600?text=AnalysisFragment+Preview)
+![AnalysisFragment Preview](assestss/IMG-20250914-WA0016.jpg)
 
 ---
 
@@ -92,7 +92,7 @@
 
 ## 📸 Screenshots
 <p float="left">
-  <img src="https://via.placeholder.com/250x500?text=HomeFragment" width="200" />
+  <img src="assestss/IMG-20250914-WA0017.jpg" width="200" />
   <img src="https://via.placeholder.com/250x500?text=SettingsFragment" width="200" />
   <img src="https://via.placeholder.com/250x500?text=AnalysisFragment" width="200" />
 </p>
